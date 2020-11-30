@@ -1,4 +1,4 @@
-# Palindrome Checker
+# Caesar Cipher
 
 freeCodeCamp JavaScript Algorithms and Data Structure project
 
@@ -28,7 +28,6 @@ const rot13 = (str) => {
   return String.fromCharCode.apply(null, arr);
 };
 
-// Input/Output
 // Input/Output
 console.log(rot13('FGENJOREEL')); // STRAWBERRY
 console.log(rot13('SERR CVMMN!')); // FREE PIZZA!
